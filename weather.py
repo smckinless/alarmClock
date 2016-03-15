@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import urllib2
 import json
 import os
@@ -5,7 +6,7 @@ import os
 def say_weather():
 	key = 'f1b1b60b5ac7f727'
 
-	zip = '07605'
+	zip = '02120'
 
 	url = 'http://api.wunderground.com/api/' + key + '/geolookup/forecast/q/' + zip + '.json'
 
